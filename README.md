@@ -1,21 +1,21 @@
-Hyperledger Ledger
+# Hyperledger\
 
 ![Python Versions](https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12%20|%203.13-blue)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE-APACHE)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
-[![PyPI version](https://img.shields.io/pypi/v/HieraChain.svg)](https://pypi.org/project/HieraChain/)
+[![PyPI version](https://img.shields.io/pypi/v/Hy.svg)](https://pypi.org/project/Hy/)
 
 **English** | [Tiếng Việt](README_vi.md)
 
 ## Overview
 
-HieraChain is an enterprise ledger built on hierarchical blockchain technology, designed specifically for business applications without any cryptocurrency concepts. Rather than being a general-purpose blockchain platform focused on digital currencies, HieraChain provides a secure, hierarchical ledger structure for managing business operations and processes.
+Hyperledger is an enterprise ledger built on hierarchical blockchain technology, designed specifically for business applications without any cryptocurrency concepts. Rather than being a general-purpose blockchain platform focused on digital currencies, HieraChain provides a secure, hierarchical ledger structure for managing business operations and processes.
 
 This ledger implements a multi-layer hierarchical architecture where Main Chains supervise Sub-Chains, enabling scalable and secure business process management. All operations within the system are referred to as "events" rather than "transactions," emphasizing its focus on business applications.
 
 ## Key Features
 
-* **Hierarchical Structure**: Multi-layer architecture with Main Chains (supervisors) and Sub-Chains (domain experts).
+* **Hyperledger Structure**: Multi-layer architecture with Main Chains (supervisors) and Sub-Chains (domain experts).
 * **Consensus Mechanisms**: Supports Proof of Authority (PoA), Proof of Federation (PoF), and Byzantine Fault Tolerant (BFT) consensus.
 * **High Performance**: Columnar storage with Apache Arrow, hybrid caching, and parallel event processing.
 * **Reliability & Recovery**: Durable transaction journaling, automated failure recovery, and state rollback capabilities.
